@@ -111,6 +111,8 @@ JavaScript 使用函数来管理作用域，在一个函数内定义的变量称
 
 也就是说，隐式全局变量并不算是真正的变量，但他们是全局对象的属性成员。属性是可以通过delete运算符删除的，而变量不可以被删除：
 
+>（译注：在浏览器环境中，所有 JavaScript 代码都是在 window 作用域内的，所以在这种情况下，我们所说的全局变量其实都是 window 下的一个属性，故可以用 delete 删除，但在如 nodejs 或 gjs 等非浏览器环境下，显式声明的全局变量无法用 delete 删除。）
+
 	// define three globals
 	var global_var = 1;
 	global_novar = 2; // antipattern

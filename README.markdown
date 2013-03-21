@@ -11,9 +11,9 @@
 
 # 目录
 
-## [第一章 概述](javascript.patterns/blob/master/chapter1.markdown)
+## [第一章 概述](/chapter1.markdown)
 
-- [模式](javascript.patterns/blob/master/chapter1.markdown)
+- [模式](/chapter1.markdown)
 - [JavaScript：概念](javascript.patterns/blob/master/chapter1.markdown#a2)
 	- [面向对象](javascript.patterns/blob/master/chapter1.markdown#a3)
 	- [无类](javascript.patterns/blob/master/chapter1.markdown#a4)
